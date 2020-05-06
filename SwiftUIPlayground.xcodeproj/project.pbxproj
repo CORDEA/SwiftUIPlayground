@@ -24,6 +24,7 @@
 		463CA12A246286DA0076B905 /* TopGameRowModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463CA129246286DA0076B905 /* TopGameRowModel.swift */; };
 		463CA12D246289B80076B905 /* URLImage in Frameworks */ = {isa = PBXBuildFile; productRef = 463CA12C246289B80076B905 /* URLImage */; };
 		463CA12F2462935B0076B905 /* TopGameList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463CA12E2462935A0076B905 /* TopGameList.swift */; };
+		463CA131246297E30076B905 /* GetTopGamesUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463CA130246297E30076B905 /* GetTopGamesUseCase.swift */; };
 		4680BFE2246279CA0069E89D /* TwitchAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4680BFE1246279CA0069E89D /* TwitchAPI.swift */; };
 /* End PBXBuildFile section */
 
@@ -46,6 +47,7 @@
 		463CA127246286800076B905 /* TopGameRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopGameRow.swift; sourceTree = "<group>"; };
 		463CA129246286DA0076B905 /* TopGameRowModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopGameRowModel.swift; sourceTree = "<group>"; };
 		463CA12E2462935A0076B905 /* TopGameList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopGameList.swift; sourceTree = "<group>"; };
+		463CA130246297E30076B905 /* GetTopGamesUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetTopGamesUseCase.swift; sourceTree = "<group>"; };
 		4680BFE1246279CA0069E89D /* TwitchAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitchAPI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -99,6 +101,7 @@
 				463CA127246286800076B905 /* TopGameRow.swift */,
 				463CA129246286DA0076B905 /* TopGameRowModel.swift */,
 				463CA12E2462935A0076B905 /* TopGameList.swift */,
+				463CA130246297E30076B905 /* GetTopGamesUseCase.swift */,
 			);
 			path = SwiftUIPlayground;
 			sourceTree = "<group>";
@@ -196,6 +199,7 @@
 				463CA11C24627FF80076B905 /* TopGamesRepository.swift in Sources */,
 				4626974824625DF4009CA8E0 /* SceneDelegate.swift in Sources */,
 				4626974A24625DF4009CA8E0 /* ContentView.swift in Sources */,
+				463CA131246297E30076B905 /* GetTopGamesUseCase.swift in Sources */,
 				463CA12A246286DA0076B905 /* TopGameRowModel.swift in Sources */,
 				463CA1202462819C0076B905 /* TopGame.swift in Sources */,
 				4680BFE2246279CA0069E89D /* TwitchAPI.swift in Sources */,
