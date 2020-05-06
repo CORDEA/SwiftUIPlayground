@@ -3,5 +3,6 @@
 /Packages
 /*.xcodeproj
 xcuserdata/
+.idea/
 
 Config.xcconfig
