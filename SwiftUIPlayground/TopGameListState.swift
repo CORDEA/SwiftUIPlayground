@@ -10,4 +10,17 @@ import SwiftUI
 
 class TopGameListState: ObservableObject {
     @Published var models = [TopGameRowModel]()
+
+    init() {
+        GetTopGamesUseCase.shared.execute { [weak self] games in
+            self?.models = games.map {
+                TopGameRowModel(
+                        id: $0.game.id,
+                        numberOfViewers: $0.viewers,
+                        name: $0.game.name,
+                        imageURL: URL(string: $0.game.logo.medium)!
+                )
+            }
+        }
+    }
 }
