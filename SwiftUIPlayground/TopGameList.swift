@@ -9,9 +9,11 @@
 import SwiftUI
 
 struct TopGameList: View {
+    @ObservedObject var state = TopGameListState()
+
     var body: some View {
         NavigationView {
-            List([]) { model in
+            List(state.models) { model in
                 TopGameRow(model: model)
             }
         }
