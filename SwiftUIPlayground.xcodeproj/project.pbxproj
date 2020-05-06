@@ -14,6 +14,7 @@
 		4626974F24625DF7009CA8E0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4626974E24625DF7009CA8E0 /* Preview Assets.xcassets */; };
 		4626975224625DF7009CA8E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4626975024625DF7009CA8E0 /* LaunchScreen.storyboard */; };
 		4626975B24626545009CA8E0 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 4626975A24626545009CA8E0 /* Alamofire */; };
+		463CA126246281EF0076B905 /* GameLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463CA125246281EF0076B905 /* GameLogo.swift */; };
 		4680BFE2246279CA0069E89D /* TwitchAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4680BFE1246279CA0069E89D /* TwitchAPI.swift */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +28,7 @@
 		4626975124625DF7009CA8E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4626975324625DF7009CA8E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4626975E2462673C009CA8E0 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
+		463CA125246281EF0076B905 /* GameLogo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameLogo.swift; sourceTree = "<group>"; };
 		4680BFE1246279CA0069E89D /* TwitchAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitchAPI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -70,6 +72,7 @@
 				4626974D24625DF7009CA8E0 /* Preview Content */,
 				4626975E2462673C009CA8E0 /* Config.xcconfig */,
 				4680BFE1246279CA0069E89D /* TwitchAPI.swift */,
+				463CA125246281EF0076B905 /* GameLogo.swift */,
 			);
 			path = SwiftUIPlayground;
 			sourceTree = "<group>";
@@ -159,6 +162,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				463CA126246281EF0076B905 /* GameLogo.swift in Sources */,
 				4626974624625DF4009CA8E0 /* AppDelegate.swift in Sources */,
 				4626974824625DF4009CA8E0 /* SceneDelegate.swift in Sources */,
 				4626974A24625DF4009CA8E0 /* ContentView.swift in Sources */,
