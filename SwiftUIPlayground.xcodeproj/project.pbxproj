@@ -20,6 +20,7 @@
 		463CA122246281B10076B905 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463CA121246281B10076B905 /* Game.swift */; };
 		463CA124246281C40076B905 /* GameBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463CA123246281C40076B905 /* GameBox.swift */; };
 		463CA126246281EF0076B905 /* GameLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463CA125246281EF0076B905 /* GameLogo.swift */; };
+		463CA128246286800076B905 /* TopGameRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463CA127246286800076B905 /* TopGameRow.swift */; };
 		463CA12A246286DA0076B905 /* TopGameRowModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463CA129246286DA0076B905 /* TopGameRowModel.swift */; };
 		463CA12D246289B80076B905 /* URLImage in Frameworks */ = {isa = PBXBuildFile; productRef = 463CA12C246289B80076B905 /* URLImage */; };
 		4680BFE2246279CA0069E89D /* TwitchAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4680BFE1246279CA0069E89D /* TwitchAPI.swift */; };
@@ -41,6 +42,7 @@
 		463CA121246281B10076B905 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 		463CA123246281C40076B905 /* GameBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameBox.swift; sourceTree = "<group>"; };
 		463CA125246281EF0076B905 /* GameLogo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameLogo.swift; sourceTree = "<group>"; };
+		463CA127246286800076B905 /* TopGameRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopGameRow.swift; sourceTree = "<group>"; };
 		463CA129246286DA0076B905 /* TopGameRowModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopGameRowModel.swift; sourceTree = "<group>"; };
 		4680BFE1246279CA0069E89D /* TwitchAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitchAPI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -92,6 +94,7 @@
 				463CA121246281B10076B905 /* Game.swift */,
 				463CA123246281C40076B905 /* GameBox.swift */,
 				463CA125246281EF0076B905 /* GameLogo.swift */,
+				463CA127246286800076B905 /* TopGameRow.swift */,
 				463CA129246286DA0076B905 /* TopGameRowModel.swift */,
 			);
 			path = SwiftUIPlayground;
@@ -194,6 +197,7 @@
 				463CA1202462819C0076B905 /* TopGame.swift in Sources */,
 				4680BFE2246279CA0069E89D /* TwitchAPI.swift in Sources */,
 				463CA11E246281710076B905 /* TopGames.swift in Sources */,
+				463CA128246286800076B905 /* TopGameRow.swift in Sources */,
 				463CA122246281B10076B905 /* Game.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
