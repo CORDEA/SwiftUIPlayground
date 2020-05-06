@@ -8,12 +8,14 @@
 
 import Foundation
 
-struct TopGameRowModel {
+struct TopGameRowModel: Identifiable {
     private var numberOfViewers: Int
+    var id: Int64
     var name: String
     var imageURL: URL
 
-    init(numberOfViewers: Int, name: String, imageURL: URL) {
+    init(id: Int64, numberOfViewers: Int, name: String, imageURL: URL) {
+        self.id = id
         self.numberOfViewers = numberOfViewers
         self.name = name
         self.imageURL = imageURL

@@ -30,6 +30,6 @@ struct TopGameRow: View {
 
 struct TopGameRow_Previews: PreviewProvider {
     static var previews: some View {
-        TopGameRow(model: TopGameRowModel(numberOfViewers: 1209, name: "Game", imageURL: URL(string: "https://example.com")!))
+        TopGameRow(model: TopGameRowModel(id: 0, numberOfViewers: 1209, name: "Game", imageURL: URL(string: "https://example.com")!))
     }
 }
