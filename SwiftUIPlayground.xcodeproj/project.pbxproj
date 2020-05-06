@@ -25,6 +25,7 @@
 		463CA12D246289B80076B905 /* URLImage in Frameworks */ = {isa = PBXBuildFile; productRef = 463CA12C246289B80076B905 /* URLImage */; };
 		463CA12F2462935B0076B905 /* TopGameList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463CA12E2462935A0076B905 /* TopGameList.swift */; };
 		463CA131246297E30076B905 /* GetTopGamesUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463CA130246297E30076B905 /* GetTopGamesUseCase.swift */; };
+		463CA133246299870076B905 /* TopGameListState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463CA132246299870076B905 /* TopGameListState.swift */; };
 		4680BFE2246279CA0069E89D /* TwitchAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4680BFE1246279CA0069E89D /* TwitchAPI.swift */; };
 /* End PBXBuildFile section */
 
@@ -48,6 +49,7 @@
 		463CA129246286DA0076B905 /* TopGameRowModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopGameRowModel.swift; sourceTree = "<group>"; };
 		463CA12E2462935A0076B905 /* TopGameList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopGameList.swift; sourceTree = "<group>"; };
 		463CA130246297E30076B905 /* GetTopGamesUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetTopGamesUseCase.swift; sourceTree = "<group>"; };
+		463CA132246299870076B905 /* TopGameListState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopGameListState.swift; sourceTree = "<group>"; };
 		4680BFE1246279CA0069E89D /* TwitchAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitchAPI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -102,6 +104,7 @@
 				463CA129246286DA0076B905 /* TopGameRowModel.swift */,
 				463CA12E2462935A0076B905 /* TopGameList.swift */,
 				463CA130246297E30076B905 /* GetTopGamesUseCase.swift */,
+				463CA132246299870076B905 /* TopGameListState.swift */,
 			);
 			path = SwiftUIPlayground;
 			sourceTree = "<group>";
@@ -193,6 +196,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				463CA133246299870076B905 /* TopGameListState.swift in Sources */,
 				463CA126246281EF0076B905 /* GameLogo.swift in Sources */,
 				4626974624625DF4009CA8E0 /* AppDelegate.swift in Sources */,
 				463CA124246281C40076B905 /* GameBox.swift in Sources */,
