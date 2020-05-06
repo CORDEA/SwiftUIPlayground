@@ -14,6 +14,7 @@
 		4626974F24625DF7009CA8E0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4626974E24625DF7009CA8E0 /* Preview Assets.xcassets */; };
 		4626975224625DF7009CA8E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4626975024625DF7009CA8E0 /* LaunchScreen.storyboard */; };
 		4626975B24626545009CA8E0 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 4626975A24626545009CA8E0 /* Alamofire */; };
+		463CA11E246281710076B905 /* TopGames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463CA11D246281710076B905 /* TopGames.swift */; };
 		463CA1202462819C0076B905 /* TopGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463CA11F2462819C0076B905 /* TopGame.swift */; };
 		463CA122246281B10076B905 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463CA121246281B10076B905 /* Game.swift */; };
 		463CA124246281C40076B905 /* GameBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463CA123246281C40076B905 /* GameBox.swift */; };
@@ -31,6 +32,7 @@
 		4626975124625DF7009CA8E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4626975324625DF7009CA8E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4626975E2462673C009CA8E0 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
+		463CA11D246281710076B905 /* TopGames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopGames.swift; sourceTree = "<group>"; };
 		463CA11F2462819C0076B905 /* TopGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopGame.swift; sourceTree = "<group>"; };
 		463CA121246281B10076B905 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 		463CA123246281C40076B905 /* GameBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameBox.swift; sourceTree = "<group>"; };
@@ -78,6 +80,7 @@
 				4626974D24625DF7009CA8E0 /* Preview Content */,
 				4626975E2462673C009CA8E0 /* Config.xcconfig */,
 				4680BFE1246279CA0069E89D /* TwitchAPI.swift */,
+				463CA11D246281710076B905 /* TopGames.swift */,
 				463CA11F2462819C0076B905 /* TopGame.swift */,
 				463CA121246281B10076B905 /* Game.swift */,
 				463CA123246281C40076B905 /* GameBox.swift */,
@@ -178,6 +181,7 @@
 				4626974A24625DF4009CA8E0 /* ContentView.swift in Sources */,
 				463CA1202462819C0076B905 /* TopGame.swift in Sources */,
 				4680BFE2246279CA0069E89D /* TwitchAPI.swift in Sources */,
+				463CA11E246281710076B905 /* TopGames.swift in Sources */,
 				463CA122246281B10076B905 /* Game.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
