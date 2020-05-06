@@ -20,6 +20,7 @@
 		463CA122246281B10076B905 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463CA121246281B10076B905 /* Game.swift */; };
 		463CA124246281C40076B905 /* GameBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463CA123246281C40076B905 /* GameBox.swift */; };
 		463CA126246281EF0076B905 /* GameLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463CA125246281EF0076B905 /* GameLogo.swift */; };
+		463CA12D246289B80076B905 /* URLImage in Frameworks */ = {isa = PBXBuildFile; productRef = 463CA12C246289B80076B905 /* URLImage */; };
 		4680BFE2246279CA0069E89D /* TwitchAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4680BFE1246279CA0069E89D /* TwitchAPI.swift */; };
 /* End PBXBuildFile section */
 
@@ -47,6 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				463CA12D246289B80076B905 /* URLImage in Frameworks */,
 				4626975B24626545009CA8E0 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -118,6 +120,7 @@
 			name = SwiftUIPlayground;
 			packageProductDependencies = (
 				4626975A24626545009CA8E0 /* Alamofire */,
+				463CA12C246289B80076B905 /* URLImage */,
 			);
 			productName = SwiftUIPlayground;
 			productReference = 4626974224625DF4009CA8E0 /* SwiftUIPlayground.app */;
@@ -149,6 +152,7 @@
 			mainGroup = 4626973924625DF3009CA8E0;
 			packageReferences = (
 				4626975924626545009CA8E0 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				463CA12B246289B80076B905 /* XCRemoteSwiftPackageReference "url-image" */,
 			);
 			productRefGroup = 4626974324625DF4009CA8E0 /* Products */;
 			projectDirPath = "";
@@ -392,6 +396,14 @@
 				minimumVersion = 5.1.0;
 			};
 		};
+		463CA12B246289B80076B905 /* XCRemoteSwiftPackageReference "url-image" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/dmytro-anokhin/url-image";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.9.15;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -399,6 +411,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 4626975924626545009CA8E0 /* XCRemoteSwiftPackageReference "Alamofire" */;
 			productName = Alamofire;
+		};
+		463CA12C246289B80076B905 /* URLImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 463CA12B246289B80076B905 /* XCRemoteSwiftPackageReference "url-image" */;
+			productName = URLImage;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
