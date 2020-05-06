@@ -11,7 +11,7 @@ import Foundation
 
 class TwitchAPI {
     static let shared = TwitchAPI()
-    private static let baseURL: URL = URL(string: "https://api.twitch.tv/kraken/")!
+    private static let baseURL: URL = URL(string: "https://api.twitch.tv/kraken")!
     private static let twitchClientID: String = Bundle.main.infoDictionary!["Twitch Client ID"] as! String
 
     private init() {
