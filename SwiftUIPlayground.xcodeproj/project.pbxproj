@@ -25,6 +25,7 @@
 		4626974E24625DF7009CA8E0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4626975124625DF7009CA8E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4626975324625DF7009CA8E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4626975E2462673C009CA8E0 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +66,7 @@
 				4626975024625DF7009CA8E0 /* LaunchScreen.storyboard */,
 				4626975324625DF7009CA8E0 /* Info.plist */,
 				4626974D24625DF7009CA8E0 /* Preview Content */,
+				4626975E2462673C009CA8E0 /* Config.xcconfig */,
 			);
 			path = SwiftUIPlayground;
 			sourceTree = "<group>";
@@ -176,6 +178,7 @@
 /* Begin XCBuildConfiguration section */
 		4626975424625DF7009CA8E0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4626975E2462673C009CA8E0 /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -236,6 +239,7 @@
 		};
 		4626975524625DF7009CA8E0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4626975E2462673C009CA8E0 /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -290,6 +294,7 @@
 		};
 		4626975724625DF7009CA8E0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4626975E2462673C009CA8E0 /* Config.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -309,6 +314,7 @@
 		};
 		4626975824625DF7009CA8E0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4626975E2462673C009CA8E0 /* Config.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
