@@ -19,8 +19,9 @@ class TopGamesRepository {
             if let data = $0.data {
                 let games = try! JSONDecoder().decode(TopGames.self, from: data)
                 onCompleted(games)
+            } else {
+                onCompleted(nil)
             }
-            onCompleted(nil)
         }
     }
 }
