@@ -28,6 +28,7 @@
 		4680BFE2246279CA0069E89D /* TwitchAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4680BFE1246279CA0069E89D /* TwitchAPI.swift */; };
 		468D648C2466C47600F1772B /* Channel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 468D648B2466C47600F1772B /* Channel.swift */; };
 		468D648E2466C64400F1772B /* Preview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 468D648D2466C64400F1772B /* Preview.swift */; };
+		468D64902466C6A300F1772B /* Stream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 468D648F2466C6A300F1772B /* Stream.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +54,7 @@
 		4680BFE1246279CA0069E89D /* TwitchAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitchAPI.swift; sourceTree = "<group>"; };
 		468D648B2466C47600F1772B /* Channel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Channel.swift; sourceTree = "<group>"; };
 		468D648D2466C64400F1772B /* Preview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Preview.swift; sourceTree = "<group>"; };
+		468D648F2466C6A300F1772B /* Stream.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stream.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 				463CA132246299870076B905 /* TopGameListState.swift */,
 				468D648B2466C47600F1772B /* Channel.swift */,
 				468D648D2466C64400F1772B /* Preview.swift */,
+				468D648F2466C6A300F1772B /* Stream.swift */,
 			);
 			path = SwiftUIPlayground;
 			sourceTree = "<group>";
@@ -203,6 +206,7 @@
 				468D648C2466C47600F1772B /* Channel.swift in Sources */,
 				463CA126246281EF0076B905 /* GameLogo.swift in Sources */,
 				4626974624625DF4009CA8E0 /* AppDelegate.swift in Sources */,
+				468D64902466C6A300F1772B /* Stream.swift in Sources */,
 				463CA124246281C40076B905 /* GameBox.swift in Sources */,
 				463CA11C24627FF80076B905 /* TopGamesRepository.swift in Sources */,
 				4626974824625DF4009CA8E0 /* SceneDelegate.swift in Sources */,
