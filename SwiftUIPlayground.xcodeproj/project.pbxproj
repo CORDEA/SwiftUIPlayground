@@ -26,6 +26,7 @@
 		463CA131246297E30076B905 /* GetTopGamesUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463CA130246297E30076B905 /* GetTopGamesUseCase.swift */; };
 		463CA133246299870076B905 /* TopGameListState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463CA132246299870076B905 /* TopGameListState.swift */; };
 		4680BFE2246279CA0069E89D /* TwitchAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4680BFE1246279CA0069E89D /* TwitchAPI.swift */; };
+		468D648C2466C47600F1772B /* Channel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 468D648B2466C47600F1772B /* Channel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +50,7 @@
 		463CA130246297E30076B905 /* GetTopGamesUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetTopGamesUseCase.swift; sourceTree = "<group>"; };
 		463CA132246299870076B905 /* TopGameListState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopGameListState.swift; sourceTree = "<group>"; };
 		4680BFE1246279CA0069E89D /* TwitchAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitchAPI.swift; sourceTree = "<group>"; };
+		468D648B2466C47600F1772B /* Channel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Channel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				463CA12E2462935A0076B905 /* TopGameList.swift */,
 				463CA130246297E30076B905 /* GetTopGamesUseCase.swift */,
 				463CA132246299870076B905 /* TopGameListState.swift */,
+				468D648B2466C47600F1772B /* Channel.swift */,
 			);
 			path = SwiftUIPlayground;
 			sourceTree = "<group>";
@@ -194,6 +197,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				463CA133246299870076B905 /* TopGameListState.swift in Sources */,
+				468D648C2466C47600F1772B /* Channel.swift in Sources */,
 				463CA126246281EF0076B905 /* GameLogo.swift in Sources */,
 				4626974624625DF4009CA8E0 /* AppDelegate.swift in Sources */,
 				463CA124246281C40076B905 /* GameBox.swift in Sources */,
