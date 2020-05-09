@@ -27,6 +27,7 @@
 		463CA133246299870076B905 /* TopGameListState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463CA132246299870076B905 /* TopGameListState.swift */; };
 		4680BFE2246279CA0069E89D /* TwitchAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4680BFE1246279CA0069E89D /* TwitchAPI.swift */; };
 		468D648C2466C47600F1772B /* Channel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 468D648B2466C47600F1772B /* Channel.swift */; };
+		468D648E2466C64400F1772B /* Preview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 468D648D2466C64400F1772B /* Preview.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +52,7 @@
 		463CA132246299870076B905 /* TopGameListState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopGameListState.swift; sourceTree = "<group>"; };
 		4680BFE1246279CA0069E89D /* TwitchAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitchAPI.swift; sourceTree = "<group>"; };
 		468D648B2466C47600F1772B /* Channel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Channel.swift; sourceTree = "<group>"; };
+		468D648D2466C64400F1772B /* Preview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Preview.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				463CA130246297E30076B905 /* GetTopGamesUseCase.swift */,
 				463CA132246299870076B905 /* TopGameListState.swift */,
 				468D648B2466C47600F1772B /* Channel.swift */,
+				468D648D2466C64400F1772B /* Preview.swift */,
 			);
 			path = SwiftUIPlayground;
 			sourceTree = "<group>";
@@ -206,6 +209,7 @@
 				463CA131246297E30076B905 /* GetTopGamesUseCase.swift in Sources */,
 				463CA12A246286DA0076B905 /* TopGameRowModel.swift in Sources */,
 				463CA1202462819C0076B905 /* TopGame.swift in Sources */,
+				468D648E2466C64400F1772B /* Preview.swift in Sources */,
 				4680BFE2246279CA0069E89D /* TwitchAPI.swift in Sources */,
 				463CA11E246281710076B905 /* TopGames.swift in Sources */,
 				463CA128246286800076B905 /* TopGameRow.swift in Sources */,
