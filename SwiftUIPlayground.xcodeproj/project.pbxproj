@@ -29,6 +29,7 @@
 		468D648C2466C47600F1772B /* Channel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 468D648B2466C47600F1772B /* Channel.swift */; };
 		468D648E2466C64400F1772B /* Preview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 468D648D2466C64400F1772B /* Preview.swift */; };
 		468D64902466C6A300F1772B /* Stream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 468D648F2466C6A300F1772B /* Stream.swift */; };
+		468D64922466C7EE00F1772B /* Streams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 468D64912466C7EE00F1772B /* Streams.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +56,7 @@
 		468D648B2466C47600F1772B /* Channel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Channel.swift; sourceTree = "<group>"; };
 		468D648D2466C64400F1772B /* Preview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Preview.swift; sourceTree = "<group>"; };
 		468D648F2466C6A300F1772B /* Stream.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stream.swift; sourceTree = "<group>"; };
+		468D64912466C7EE00F1772B /* Streams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Streams.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 				468D648B2466C47600F1772B /* Channel.swift */,
 				468D648D2466C64400F1772B /* Preview.swift */,
 				468D648F2466C6A300F1772B /* Stream.swift */,
+				468D64912466C7EE00F1772B /* Streams.swift */,
 			);
 			path = SwiftUIPlayground;
 			sourceTree = "<group>";
@@ -209,6 +212,7 @@
 				468D64902466C6A300F1772B /* Stream.swift in Sources */,
 				463CA124246281C40076B905 /* GameBox.swift in Sources */,
 				463CA11C24627FF80076B905 /* TopGamesRepository.swift in Sources */,
+				468D64922466C7EE00F1772B /* Streams.swift in Sources */,
 				4626974824625DF4009CA8E0 /* SceneDelegate.swift in Sources */,
 				463CA131246297E30076B905 /* GetTopGamesUseCase.swift in Sources */,
 				463CA12A246286DA0076B905 /* TopGameRowModel.swift in Sources */,
