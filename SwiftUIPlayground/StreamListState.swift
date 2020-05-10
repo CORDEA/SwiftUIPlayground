@@ -10,8 +10,13 @@ import SwiftUI
 
 class StreamListState: ObservableObject {
     @Published var models = [StreamRowModel]()
+    private var gameTitle: String
 
     init(gameTitle: String) {
+        self.gameTitle = gameTitle
+    }
+
+    func refresh() {
         SearchStreamsUseCase.shared.execute(query: gameTitle, onCompleted: { [weak self] streams in
             self?.models = streams.map {
                 StreamRowModel(stream: $0)
