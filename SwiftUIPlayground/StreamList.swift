@@ -9,11 +9,15 @@
 import SwiftUI
 
 struct StreamList: View {
-    @ObservedObject var state = StreamListState(gameTitle: "")
+    @ObservedObject var state: StreamListState
 
     var body: some View {
         List(state.models) { model in
             StreamRow(model: model)
         }
+    }
+
+    init(gameTitle: String) {
+        self.state = StreamListState(gameTitle: gameTitle)
     }
 }

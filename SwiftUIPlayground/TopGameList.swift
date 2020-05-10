@@ -14,7 +14,9 @@ struct TopGameList: View {
     var body: some View {
         NavigationView {
             List(state.models) { model in
-                TopGameRow(model: model)
+                NavigationLink(destination: StreamList(gameTitle: model.name)) {
+                    TopGameRow(model: model)
+                }
             }.navigationBarTitle(Text("Twitch Top Games"))
         }
     }
