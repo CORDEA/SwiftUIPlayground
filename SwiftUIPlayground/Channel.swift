@@ -25,7 +25,7 @@ struct Channel: Decodable {
     var status: String
     var updatedAt: String
     var url: String
-    var videoBanner: String
+    var videoBanner: String?
     var views: Int
 
     enum CodingKeys: String, CodingKey {

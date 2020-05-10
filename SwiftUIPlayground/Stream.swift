@@ -21,7 +21,7 @@ struct Stream: Decodable {
     var viewers: Int
 
     enum CodingKeys: String, CodingKey {
-        case id
+        case id = "_id"
         case averageFPS = "average_fps"
         case channel
         case createdAt = "created_at"
