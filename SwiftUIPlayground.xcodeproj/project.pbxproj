@@ -34,6 +34,7 @@
 		468D649624679B5E00F1772B /* SearchStreamsUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 468D649524679B5E00F1772B /* SearchStreamsUseCase.swift */; };
 		468D649824679D6200F1772B /* StreamRowModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 468D649724679D6200F1772B /* StreamRowModel.swift */; };
 		468D649A2467A2DD00F1772B /* StreamRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 468D64992467A2DD00F1772B /* StreamRow.swift */; };
+		468D649C2467A5F200F1772B /* StreamList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 468D649B2467A5F200F1772B /* StreamList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -65,6 +66,7 @@
 		468D649524679B5E00F1772B /* SearchStreamsUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchStreamsUseCase.swift; sourceTree = "<group>"; };
 		468D649724679D6200F1772B /* StreamRowModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamRowModel.swift; sourceTree = "<group>"; };
 		468D64992467A2DD00F1772B /* StreamRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamRow.swift; sourceTree = "<group>"; };
+		468D649B2467A5F200F1772B /* StreamList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +128,7 @@
 				468D649524679B5E00F1772B /* SearchStreamsUseCase.swift */,
 				468D649724679D6200F1772B /* StreamRowModel.swift */,
 				468D64992467A2DD00F1772B /* StreamRow.swift */,
+				468D649B2467A5F200F1772B /* StreamList.swift */,
 			);
 			path = SwiftUIPlayground;
 			sourceTree = "<group>";
@@ -228,6 +231,7 @@
 				468D64922466C7EE00F1772B /* Streams.swift in Sources */,
 				4626974824625DF4009CA8E0 /* SceneDelegate.swift in Sources */,
 				463CA131246297E30076B905 /* GetTopGamesUseCase.swift in Sources */,
+				468D649C2467A5F200F1772B /* StreamList.swift in Sources */,
 				463CA12A246286DA0076B905 /* TopGameRowModel.swift in Sources */,
 				463CA1202462819C0076B905 /* TopGame.swift in Sources */,
 				468D648E2466C64400F1772B /* Preview.swift in Sources */,
