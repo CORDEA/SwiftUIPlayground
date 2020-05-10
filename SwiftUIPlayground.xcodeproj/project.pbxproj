@@ -35,6 +35,7 @@
 		468D649824679D6200F1772B /* StreamRowModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 468D649724679D6200F1772B /* StreamRowModel.swift */; };
 		468D649A2467A2DD00F1772B /* StreamRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 468D64992467A2DD00F1772B /* StreamRow.swift */; };
 		468D649C2467A5F200F1772B /* StreamList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 468D649B2467A5F200F1772B /* StreamList.swift */; };
+		468D649E2467A74000F1772B /* StreamListState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 468D649D2467A74000F1772B /* StreamListState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -67,6 +68,7 @@
 		468D649724679D6200F1772B /* StreamRowModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamRowModel.swift; sourceTree = "<group>"; };
 		468D64992467A2DD00F1772B /* StreamRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamRow.swift; sourceTree = "<group>"; };
 		468D649B2467A5F200F1772B /* StreamList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamList.swift; sourceTree = "<group>"; };
+		468D649D2467A74000F1772B /* StreamListState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamListState.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +131,7 @@
 				468D649724679D6200F1772B /* StreamRowModel.swift */,
 				468D64992467A2DD00F1772B /* StreamRow.swift */,
 				468D649B2467A5F200F1772B /* StreamList.swift */,
+				468D649D2467A74000F1772B /* StreamListState.swift */,
 			);
 			path = SwiftUIPlayground;
 			sourceTree = "<group>";
@@ -229,6 +232,7 @@
 				468D649A2467A2DD00F1772B /* StreamRow.swift in Sources */,
 				463CA11C24627FF80076B905 /* TopGamesRepository.swift in Sources */,
 				468D64922466C7EE00F1772B /* Streams.swift in Sources */,
+				468D649E2467A74000F1772B /* StreamListState.swift in Sources */,
 				4626974824625DF4009CA8E0 /* SceneDelegate.swift in Sources */,
 				463CA131246297E30076B905 /* GetTopGamesUseCase.swift in Sources */,
 				468D649C2467A5F200F1772B /* StreamList.swift in Sources */,
