@@ -18,7 +18,7 @@ struct TopGameRowModel: Identifiable {
         self.id = topGame.game.id
         self.numberOfViewers = topGame.viewers
         self.name = topGame.game.name
-        self.imageURL = URL(string: topGame.game.logo.medium)!
+        self.imageURL = URL(string: topGame.game.box.medium)!
     }
 
     func formattedNumberOfViewers() -> String {
