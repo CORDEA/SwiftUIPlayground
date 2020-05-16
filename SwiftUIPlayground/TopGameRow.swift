@@ -17,7 +17,8 @@ struct TopGameRow: View {
             URLImage(model.imageURL) { proxy in
                 proxy.image
                         .resizable()
-                        .frame(width: 100.0, height: 56.0)
+                        .scaledToFit()
+                        .frame(width: 56.0, height: 56.0)
             }.padding(16.0)
             VStack(alignment: .leading, spacing: 2.0) {
                 Text(model.name).font(.body)
