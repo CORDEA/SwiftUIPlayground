@@ -16,7 +16,7 @@ struct StreamList: View {
             StreamRow(model: model)
         }.onAppear {
             self.state.refresh()
-        }
+        }.navigationBarTitle(Text(state.gameTitle))
     }
 
     init(gameTitle: String) {

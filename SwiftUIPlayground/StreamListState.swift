@@ -10,7 +10,7 @@ import SwiftUI
 
 class StreamListState: ObservableObject {
     @Published var models = [StreamRowModel]()
-    private var gameTitle: String
+    let gameTitle: String
 
     init(gameTitle: String) {
         self.gameTitle = gameTitle
