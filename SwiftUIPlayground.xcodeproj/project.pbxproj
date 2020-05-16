@@ -103,6 +103,9 @@
 		4626974424625DF4009CA8E0 /* SwiftUIPlayground */ = {
 			isa = PBXGroup;
 			children = (
+				466C951D246FE1520024CB81 /* Response */,
+				466C951C246FE12A0024CB81 /* UseCase */,
+				466C951B246FE10B0024CB81 /* Repository */,
 				4626974524625DF4009CA8E0 /* AppDelegate.swift */,
 				4626974724625DF4009CA8E0 /* SceneDelegate.swift */,
 				4626974B24625DF7009CA8E0 /* Assets.xcassets */,
@@ -111,23 +114,10 @@
 				4626974D24625DF7009CA8E0 /* Preview Content */,
 				4626975E2462673C009CA8E0 /* Config.xcconfig */,
 				4680BFE1246279CA0069E89D /* TwitchAPI.swift */,
-				463CA11B24627FF80076B905 /* TopGamesRepository.swift */,
-				463CA11D246281710076B905 /* TopGames.swift */,
-				463CA11F2462819C0076B905 /* TopGame.swift */,
-				463CA121246281B10076B905 /* Game.swift */,
-				463CA123246281C40076B905 /* GameBox.swift */,
-				463CA125246281EF0076B905 /* GameLogo.swift */,
 				463CA127246286800076B905 /* TopGameRow.swift */,
 				463CA129246286DA0076B905 /* TopGameRowModel.swift */,
 				463CA12E2462935A0076B905 /* TopGameList.swift */,
-				463CA130246297E30076B905 /* GetTopGamesUseCase.swift */,
 				463CA132246299870076B905 /* TopGameListState.swift */,
-				468D648B2466C47600F1772B /* Channel.swift */,
-				468D648D2466C64400F1772B /* Preview.swift */,
-				468D648F2466C6A300F1772B /* Stream.swift */,
-				468D64912466C7EE00F1772B /* Streams.swift */,
-				468D64932466C86800F1772B /* StreamsRepository.swift */,
-				468D649524679B5E00F1772B /* SearchStreamsUseCase.swift */,
 				468D649724679D6200F1772B /* StreamRowModel.swift */,
 				468D64992467A2DD00F1772B /* StreamRow.swift */,
 				468D649B2467A5F200F1772B /* StreamList.swift */,
@@ -142,6 +132,40 @@
 				4626974E24625DF7009CA8E0 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		466C951B246FE10B0024CB81 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				463CA11B24627FF80076B905 /* TopGamesRepository.swift */,
+				468D64932466C86800F1772B /* StreamsRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		466C951C246FE12A0024CB81 /* UseCase */ = {
+			isa = PBXGroup;
+			children = (
+				463CA130246297E30076B905 /* GetTopGamesUseCase.swift */,
+				468D649524679B5E00F1772B /* SearchStreamsUseCase.swift */,
+			);
+			path = UseCase;
+			sourceTree = "<group>";
+		};
+		466C951D246FE1520024CB81 /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				463CA11D246281710076B905 /* TopGames.swift */,
+				463CA11F2462819C0076B905 /* TopGame.swift */,
+				463CA121246281B10076B905 /* Game.swift */,
+				463CA123246281C40076B905 /* GameBox.swift */,
+				463CA125246281EF0076B905 /* GameLogo.swift */,
+				468D648B2466C47600F1772B /* Channel.swift */,
+				468D648D2466C64400F1772B /* Preview.swift */,
+				468D648F2466C6A300F1772B /* Stream.swift */,
+				468D64912466C7EE00F1772B /* Streams.swift */,
+			);
+			path = Response;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
